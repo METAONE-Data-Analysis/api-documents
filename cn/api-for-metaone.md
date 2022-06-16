@@ -370,6 +370,8 @@ itemId | 是 | 道具ID/tokenId
           "data": {
           	"ownerId": "道具拥有者的ID/钱包ID",
           	"details": {
+  ````
+
 					"itemImage": "https://xxxx/xxx.png", //道具配图url地址
 					"gameId": "游戏id", 
 					"attributes" :[  //所有扩展字段会以如下格式放在attributes数组内
@@ -384,8 +386,8 @@ itemId | 是 | 道具ID/tokenId
 						...
 					]
 				},
-          }
-      }
+	      }
+	  }
   }
   ````
   
@@ -1146,3 +1148,7 @@ uint _amount
 
   
 
+## 文档更新日志
+
+- 初始编写 [2022-3-30]
+- 更新：增加智能合约对接API代码[ Lyon 2022-06-15 ] [内容来源：智能合约团队Hayley提供]
